@@ -17,11 +17,11 @@ layout: default
     </header>
 
     <div class="post-content e-content" itemprop="articleBody">
-        <script src="https://utteranc.es/client.js" repo="[ENTER REPO HERE]" issue-term="pathname" theme="github-light"
+        {{ content }}
+    </div>
+    <script src="https://utteranc.es/client.js" repo="[ENTER REPO HERE]" issue-term="pathname" theme="github-light"
         crossorigin="anonymous" async>
         </script>
-    </div>
-  
 
     <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
 </article>
